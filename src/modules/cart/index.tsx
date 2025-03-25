@@ -1,11 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import Navigation from '@navigation/Navigation';
 
-const App = () => {
-  return <Navigation />;
+const Cart = () => {
+  return (
+    <View>
+      <Text>Cart</Text>
+    </View>
+  );
 };
 
-export default App;
+export default Cart;
 
 const styles = StyleSheet.create({});

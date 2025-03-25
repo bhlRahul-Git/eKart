@@ -1,11 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import Navigation from '@navigation/Navigation';
 
-const App = () => {
-  return <Navigation />;
+const Account = () => {
+  return (
+    <View>
+      <Text>Account</Text>
+    </View>
+  );
 };
 
-export default App;
+export default Account;
 
 const styles = StyleSheet.create({});
